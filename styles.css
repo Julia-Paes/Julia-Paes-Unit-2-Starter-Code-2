@@ -1,0 +1,71 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+.green{ font-family: 'Anton', cursive;}
+.red{ font-family: 'Anton', cursive;}
+.darkred{ font-family: 'Anton', cursive;}
+.blue{ font-family: 'Anton', cursive;}
+.purple{ font-family: 'Anton', cursive;}
+.magenta{ font-family: 'Anton', cursive;}
+.darkgreen{ font-family: 'Anton', cursive;}
+.black{ font-family: 'Anton', cursive;}
+.green {
+    color:green;
+background: white;}
+
+     .red{
+    color:red;
+}
+.white {
+    color:white;
+}
+.lightblue {
+    color:#96D3F0;
+}
+.gray {
+    color:#C6D1EE;
+}
+.darkgreen {
+    color:darkgreen;
+background:white;}
+.black {
+    color:black;
+background:white;}
+.darkred {
+    color:#F50038;
+}
+a{background:white;
+display:flex;
+    justify-content: center;
+  }
+   h1 {
+      text-align:center;
+}
+h2 {
+      text-align:center;
+}
+.section {
+background: linear-gradient(to right, blue, pink);}
+
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+}
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer{
+    display:block;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section{
+    border: 5px black solid;
+    margin:5px;
+
+}
+body{
+    background-color:#A5EBB4;
+}
